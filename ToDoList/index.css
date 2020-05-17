@@ -1,0 +1,25 @@
+body{
+    background-color:pink;
+  }  
+  
+  .btn{
+      cursor: pointer;
+  }
+  
+  h1{
+    color:#c7ecee;
+      transition: color .5s ease-in-out;
+  }
+  
+  .clicked {
+      color :#30336b
+  }
+  
+  .form,
+  .greetings {
+    display : noen;
+  }
+
+  .showing{
+    display: block;
+  }
