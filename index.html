@@ -1,27 +1,38 @@
 <!DOCTYPE html>
 <html>
     <head>
+    <script src="https://kit.fontawesome.com/9378bc4c66.js" crossorigin="anonymous"></script>
     <title>Mono's ToDoList</title>
     <meta charset="utf-8"/>
     <link rel="stylesheet" href="index.css" />
     </head>
 
  <body>
+     <style>@import url(//fonts.googleapis.com/earlyaccess/notosansgothic.css);</style>
+     <!--1.시계구현-->
     <div class="js-clock">
         <h1> 00:00 </h1>
     </div>
-    
+    <!--2.사용자 입력 양식 구현-->
     <form class ="js-form form">
-        <!-- <input type = "text" placeholder = "What is your name?"/> -->
+    <!-- <input type = "text" placeholder = "What is your name?"/> -->
     </form>
     <h4 class ="js-greetings greeting"></h4>
     <form class = "js-toDoForm">
         <input type = "text" placeholder ="Write a to do"/>
     </form>
+    <!--3.. 투두리스트-->
     <ul class = "js-toDoList">
     </ul>
+    <i class="fas fa-thermometer-full"></i>
+    <i class="fas fa-map-marker-alt"></i>
+    <spanc class="js-weather">
+    </spanc>
+
     <script src="clock.js"></script>
     <script src="gretting.js"></script>
     <script src="todo.js"></script>
+    <script src="bg.js"></script>
+    <script src="weather.js"></script>
 
 </body></html>
